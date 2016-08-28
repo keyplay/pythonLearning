@@ -1,4 +1,4 @@
-# python2.7
+#! python2.7
 # phoneAndEmail.py - Finds phone numbers and email addresses on the clipboard.
 '''
 A program that could search the text in the clipboard for phone numbers and 

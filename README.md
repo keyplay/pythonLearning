@@ -2,7 +2,7 @@
 practice python project
 
 start a project: 
-Phone Number and Email Address Extractor
+Adding Bullets to Wiki Markup
 
 finished projects: 
 Phone Number and Email Address Extractor

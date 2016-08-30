@@ -34,5 +34,6 @@ elif len(sys.argv) == 2:
     if sys.argv[1].lower() == 'save':
         pyperclip.copy(str(list(mcbShelve.keys())))  # whatif do not use str()
     elif sys.argv[1] in mcbShelve.keys():
+        pyperclip.copy(mcbShelve[sys.argv[1]])
 
 mcbShelve.close()

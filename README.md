@@ -1,13 +1,13 @@
 # pythonLearning
 practice python project
 
-start a project: 
+start a project: <br />
 none
 
-untested projects: 
+untested projects: <br />
 backupToZip.py - Copies an entire folder and its contents into a ZIP file whose filename increments.
 
-finished projects: 
+finished projects: <br />
 passwordLocker.py - An insecure password locker program.<br /> 
 phoneAndEmail.py - Finds phone numbers and email addresses on the clipboard. <br />
 randomQuizGenerator.py - Creates quizzes with questions and answers in random order, along with the answer key.<br />

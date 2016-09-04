@@ -14,3 +14,4 @@ randomQuizGenerator.py - Creates quizzes with questions and answers in random or
 mcb.pyw - Saves and loads pieces of text to the clipboard.<br />
 renameDates.py - Renames filenames with American MM-DD-YYYY date format to European DD-MM-YYYY.<br />
 backupToZip.py - Copies an entire folder and its contents into a ZIP file whose filename increments.<br />
+mapIt.py - Launches a map in the browser using an address from the command line or clipboard.<br />

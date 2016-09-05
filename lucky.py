@@ -11,7 +11,7 @@ except Exception as err:
     print err
     
 # Retrieve top search result links.
-soup = bs4.BeautifulSoup(res.text)
+soup = bs4.BeautifulSoup(res.text, 'html.parser')
 # TODO: Open a browser tab for each result.
 elem = soup.select('.r a')   # find all <a> elements that are within an element that has the r CSS class.
 numOpen = min(5, len(elem))

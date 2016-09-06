@@ -2,7 +2,7 @@
 practice python project
 
 start a project: <br />
-none
+readCensusExcel.py - Tabulates population and number of census tracts for each county.
 
 untested projects: <br />
 none

@@ -4,8 +4,13 @@
 import requests, bs4, os
 
 url = 'http://xkcd.com'              # starting url
-os.makedir('xkcd', exist_ok=True)
-while not url.endswith('#'):      # may be should be '/1/'
+try:
+    os.makedirs('xkcd')
+except OSError:
+    if not os.path.isdir('xkcd'):
+        raise
+        
+while not url.endswith('#'):      
     # Download the page.
     print 'Downloading page %s...' % url
     res = requests.get(url)
@@ -14,12 +19,12 @@ while not url.endswith('#'):      # may be should be '/1/'
     except Exception as err:
         print err
     soup = bs4.BeautifulSoup(res.text, 'html.parser')
-    # Find the URL of the comic image.       add a if to judge if elem is empty
+    # Find the URL of the comic image.       
     elem = soup.select('#comic img')
     if elem == []:
         print 'There is no comic image.'
     else:
-        comicUrl = 'http://' + elem[0].get('src')
+        comicUrl = 'http:' + elem[0].get('src')
         # Download the image.
         print 'Downloading image %s...' % (comicUrl)
         comicRes = requests.get(comicUrl)
@@ -33,7 +38,7 @@ while not url.endswith('#'):      # may be should be '/1/'
 
         # Save the image to ./xkcd.
         imgFile = open(os.path.join('xkcd', os.path.basename(comicUrl)), 'wb')
-        for chunk in res.iter_content(100000):
+        for chunk in comicRes.iter_content(100000):
             imgFile.write(chunk)
         imgFile.close()
 

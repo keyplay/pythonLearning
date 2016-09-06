@@ -16,3 +16,4 @@ renameDates.py - Renames filenames with American MM-DD-YYYY date format to Europ
 backupToZip.py - Copies an entire folder and its contents into a ZIP file whose filename increments.<br />
 mapIt.py - Launches a map in the browser using an address from the command line or clipboard.<br />
 lucky.py - Opens several Google search results.<br />
+downloadXkcd.py - Downloads every single XKCD comic.

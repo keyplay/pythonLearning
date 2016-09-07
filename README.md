@@ -2,7 +2,7 @@
 practice python project
 
 start a project: <br />
-readCensusExcel.py - Tabulates population and number of census tracts for each county.
+updateProduce.py - Corrects costs in produce sales spreadsheet.
 
 untested projects: <br />
 none
@@ -16,4 +16,5 @@ renameDates.py - Renames filenames with American MM-DD-YYYY date format to Europ
 backupToZip.py - Copies an entire folder and its contents into a ZIP file whose filename increments.<br />
 mapIt.py - Launches a map in the browser using an address from the command line or clipboard.<br />
 lucky.py - Opens several Google search results.<br />
-downloadXkcd.py - Downloads every single XKCD comic.
+downloadXkcd.py - Downloads every single XKCD comic.<br />
+readCensusExcel.py - Tabulates population and number of census tracts for each county.

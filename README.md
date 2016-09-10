@@ -2,7 +2,7 @@
 practice python project
 
 start a project: <br />
-updateProduce.py - Corrects costs in produce sales spreadsheet.
+none
 
 untested projects: <br />
 none
@@ -17,4 +17,5 @@ backupToZip.py - Copies an entire folder and its contents into a ZIP file whose 
 mapIt.py - Launches a map in the browser using an address from the command line or clipboard.<br />
 lucky.py - Opens several Google search results.<br />
 downloadXkcd.py - Downloads every single XKCD comic.<br />
-readCensusExcel.py - Tabulates population and number of census tracts for each county.
+readCensusExcel.py - Tabulates population and number of census tracts for each county.<br />
+# updateProduce.py - Corrects costs in produce sales spreadsheet.

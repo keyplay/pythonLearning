@@ -18,4 +18,4 @@ mapIt.py - Launches a map in the browser using an address from the command line 
 lucky.py - Opens several Google search results.<br />
 downloadXkcd.py - Downloads every single XKCD comic.<br />
 readCensusExcel.py - Tabulates population and number of census tracts for each county.<br />
-# updateProduce.py - Corrects costs in produce sales spreadsheet.
+updateProduce.py - Corrects costs in produce sales spreadsheet.

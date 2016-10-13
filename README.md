@@ -21,4 +21,5 @@ readCensusExcel.py - Tabulates population and number of census tracts for each c
 updateProduce.py - Corrects costs in produce sales spreadsheet.<br/>
 ListComrehensions.py - generate a list which only contains lower case strings.<br/>
 triangles.py - generate a Yang Hui Triangle.<br/>
-palindrome.py - filter the non palindrome. 
+palindrome.py - filter the non palindrome. <br/>
+sortSpecial.py - sort the tuple by name.

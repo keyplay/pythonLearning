@@ -19,4 +19,5 @@ lucky.py - Opens several Google search results.<br />
 downloadXkcd.py - Downloads every single XKCD comic.<br />
 readCensusExcel.py - Tabulates population and number of census tracts for each county.<br />
 updateProduce.py - Corrects costs in produce sales spreadsheet.<br/>
-ListComrehensions.py - generate a list which only contains lower case strings.
+ListComrehensions.py - generate a list which only contains lower case strings.<br/>
+triangles.py - generate a Yang Hui Triangle

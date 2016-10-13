@@ -1,5 +1,5 @@
 #! python2.7
-# sortSpecial.py - filter the non palindrome.
+# sortSpecial.py - sort the tuple by name.
 
 def by_name(t):
     return t[0]

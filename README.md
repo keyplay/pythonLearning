@@ -22,4 +22,5 @@ updateProduce.py - Corrects costs in produce sales spreadsheet.<br/>
 ListComrehensions.py - generate a list which only contains lower case strings.<br/>
 triangles.py - generate a Yang Hui Triangle.<br/>
 palindrome.py - filter the non palindrome. <br/>
-sortSpecial.py - sort the tuple by name.
+sortSpecial.py - sort the tuple by name.<br/>
+decorator.py - log some strings before and after the function running.

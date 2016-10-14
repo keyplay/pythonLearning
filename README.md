@@ -23,4 +23,5 @@ ListComrehensions.py - generate a list which only contains lower case strings.<b
 triangles.py - generate a Yang Hui Triangle.<br/>
 palindrome.py - filter the non palindrome. <br/>
 sortSpecial.py - sort the tuple by name.<br/>
-decorator.py - log some strings before and after the function running.
+decorator.py - log some strings before and after the function running.<br/>
+classProperty.py - add some attributes to a class.

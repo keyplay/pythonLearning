@@ -26,4 +26,5 @@ sortSpecial.py - sort the tuple by name.<br/>
 decorator.py - log some strings before and after the function running.<br/>
 classProperty.py - add some attributes to a class.<br/>
 makeDoctest.py - test a function using doctest.<br/>
-makedir.py - output something like dir -l using os module.
+makedir.py - output something like dir -l using os module.<br/>
+searchFile.py - search files whose name contain the required string in current dir and sub-dir.

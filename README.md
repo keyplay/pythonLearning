@@ -28,4 +28,5 @@ classProperty.py - add some attributes to a class.<br/>
 makeDoctest.py - test a function using doctest.<br/>
 makedir.py - output something like dir -l using os module.<br/>
 searchFile.py - search files whose name contain the required string in current dir and sub-dir.<br/>
-to_timestamp.py - change the time to timestamp.
+to_timestamp.py - change the time to timestamp.<br/>
+safe_base64_decode.py - decode base64 whose = is removed.

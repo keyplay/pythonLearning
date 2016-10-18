@@ -27,4 +27,5 @@ decorator.py - log some strings before and after the function running.<br/>
 classProperty.py - add some attributes to a class.<br/>
 makeDoctest.py - test a function using doctest.<br/>
 makedir.py - output something like dir -l using os module.<br/>
-searchFile.py - search files whose name contain the required string in current dir and sub-dir.
+searchFile.py - search files whose name contain the required string in current dir and sub-dir.<br/>
+to_timestamp.py - change the time to timestamp.

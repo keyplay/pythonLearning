@@ -7,6 +7,7 @@ import hashlib
 
 db = {}
 
+# transfer a string into md5 code
 def get_md5(s):
     md5 = hashlib.md5()
     md5.update(s.encode('utf-8'))
@@ -16,6 +17,7 @@ def register(username, password):
     db[username] = get_md5(password + username + 'the-Salt')
 
 def login(username, password):
+    # check if the md5 of input is equal to the md5 in db
     if db[username] == get_md5(password + username + 'the-Salt'):
         print('Successfully login.')
         return True

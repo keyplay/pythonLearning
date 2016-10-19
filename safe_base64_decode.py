@@ -5,6 +5,7 @@
 import base64
 
 def safe_base64_decode(s):
+    # calculate the number of '=' we need
     remainder = len(s)%4
     if remainder == 0:
         return base64.b64decode(s)

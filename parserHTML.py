@@ -18,15 +18,15 @@ class MyHTMLParser(HTMLParser):
         HTMLParser.__init__(self)
     
     def handle_starttag(self, tag, attrs):
-        if tag == 'ul' and attrs[0][1] == 'list-recent-events menu':
+        if tag == 'ul' and attrs[0][1] == 'list-recent-events menu':    # to identify where the information begins
             self.liflag = True
         elif self.liflag:    
-            if tag == 'time':
+            if tag == 'time':                                           # identify time information
                 self.timeflag = True
-            elif tag == 'span' and attrs[0][1] == 'event-location':
+            elif tag == 'span' and attrs[0][1] == 'event-location':     # identify location information
                 self.locationflag = True
-            elif tag == 'h3' and attrs[0][1] == 'event-title':
-                self.db.append([])
+            elif tag == 'h3' and attrs[0][1] == 'event-title':          # identify title information
+                self.db.append([])                                      # create a list to store information of one meeting
                 self.titleflag = True
 
     def handle_endtag(self, tag):

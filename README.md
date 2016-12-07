@@ -32,4 +32,5 @@ to_timestamp.py - change the time to timestamp.<br/>
 safe_base64_decode.py - decode base64 whose = is removed.<br/>
 loginmd5.py - decode the password of user and detect if the password is wrong when logining.<br/>
 parseXML.py - parse XML using SAX.<br/>
-parserHTML.py - parse HTML to retrieve the title, time and location of meetings from url 
+parserHTML.py - parse HTML to retrieve the title, time and location of meetings from url <br/>
+splitefind.py - search the name of users whose score is in the range based on sqlite

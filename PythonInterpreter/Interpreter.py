@@ -1,6 +1,6 @@
 #! python2.7
 # -*- coding: utf-8 -*-
-# Interpreter.py - a python interpreter implemented in python
+# Interpreter.py - a tiny python interpreter implemented in python
 
 
 what_to_execute = {
@@ -46,6 +46,7 @@ class Interpreter:
         val = self.environment[name]
         self.stack.append(val)
     
+    # get different argument according to the type of instruction
     def parse_argument(self, instruction, argument, what_to_execute):
         numbers = ['LOAD_VALUE']
         names = ['LOAD_NAME', 'STORE_NAME']
@@ -68,6 +69,6 @@ class Interpreter:
             else:
                 bytecode_method(argument)
                 
-                
+# test                
 interpreter = Interpreter()
 interpreter.run_code(what_to_execute)

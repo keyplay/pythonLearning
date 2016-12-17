@@ -27,7 +27,7 @@ class Interpreter:
     # pop the result back off the stack and print it
     def PRINT_ANSWER(self):
         answer = self.stack.pop()
-        print(answer)
+        print answer
 
     # pop both numbers off, add them together, and push the result onto the stack
     def ADD_TWO_VALUES(self):
